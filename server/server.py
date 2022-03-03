@@ -26,6 +26,14 @@ def download():
                     p = "keys.txt"
                     return send_file(p,as_attachment=True)
     return ''
+
+@app.route('/**') ## Path to clear contents
+def delete():
+    log = open("keys.txt","w")
+    log.write("")
+    log.close()
+    return abort(404)
+
 @app.route('/flag')
 def flag():
     return "**" # Capture the Flag :)
