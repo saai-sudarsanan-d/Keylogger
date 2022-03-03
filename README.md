@@ -38,7 +38,7 @@ $ source serv/bin/activate
 ```
 
 # Virus Total Report
-<center><img src="imgs/virustotal.png" /></center>
+<center><img src="imgs/virustotal.PNG" /></center>
 
 This project can be made global on configuring the flask app on a heroku webapp.
 
