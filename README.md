@@ -37,6 +37,9 @@ $ source serv/bin/activate
 (serv) $ python3 server/server.py
 ```
 
+# Virus Total Report
+<center><img src="imgs/virustotal.png" /></center>
+
 This project can be made global on configuring the flask app on a heroku webapp.
 
 Link to heroku webapp : https://malserver.herokuapp.com/
